@@ -19,7 +19,7 @@
 
 /* TOP */
 .top-fold{
-  background-image: url('./images/833A0162-min.jpg');
+  background-image: url('./images/833A0162-min2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,16 @@
   padding: 5% 10% 5% 10%;
   text-align: center;
 }
-
+a{
+  color:#dc3545 !important;
+}
+a:hover{
+  text-decoration: none !important;
+  font-weight:bold;
+}
+img.icon:hover{
+  transform: flip;
+}
 /* COURSE DESCRIPTIONS */
 .icon{
   width:30%;
@@ -91,15 +100,13 @@ img{
 a.button{
   color:white !important;
 }
-a.button:hover{
-  text-decoration: none;
-
+button:hover{
+  text-decoration: none !important;
 }
 /* footer*/
 .footer{
-  background-color: grey;
+  background-color: #98051b;
   height: 100%;
-  margin-top: 20px;
   display: block;
   float: none;
 }
