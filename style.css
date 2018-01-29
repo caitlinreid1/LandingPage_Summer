@@ -11,7 +11,7 @@
 
 /* TOP */
 .top-fold{
-  background-image: url('./images/833A0162.jpg');
+  background-image: url('./images/833A0162-min.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,13 +25,30 @@
 }
 
 /* PREVIEW */
+.preview{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.offerings{
+  padding-bottom: 5%;
+}
 .preview-text{
-  padding: 5%;
+  padding: 5% 10% 5% 10%;
+  text-align: center;
 }
 
 /* COURSE DESCRIPTIONS */
+.icon{
+  width:30%;
+}
+.icon-div{
+  padding-top: 5%;
+}
+
 .program{
   padding: 5%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .program-img{
   width:100%;
@@ -46,7 +63,7 @@ img{
   overflow-x:hidden;
 }
 .program-img-crop{
-  height:inherit;
+  width:inherit;
 }
 .program-text{
   float:none;
@@ -73,14 +90,15 @@ a.button:hover{
 /* footer*/
 .footer{
   background-color: grey;
-  height: 200px;
-  margin-top: 10%;
+  height: 100%;
+  margin-top: 20px;
   display: block;
   float: none;
 }
 .footer-text{
   padding:5%;
   color:white;
+  text-align: center;
 }
 
 
@@ -105,6 +123,9 @@ a.button:hover{
     width:100%;
     height: auto;
   }
+  .icon{
+    width:70%;
+  }
 }
 
 
@@ -125,12 +146,18 @@ a.button:hover{
   .top-fold{
     background-position: right;
   }
+  .icon{
+    width:60%;
+  }
 }
 
 @media only screen and (min-width: 541px) and (max-width: 640px){
   .logo-head{
     width:30%;
     padding: 4% 0 0 4%;
+  }
+  .icon{
+    width:50%;
   }
   .top-text{
     padding: 28% 5% 5% 5%;
@@ -161,7 +188,7 @@ a.button:hover{
 }
 
 /* ---TABLET LANDSCAPE --- */
-@media only screen and (min-width: 981px) and (max-width: 1200px){
+@media only screen and (min-width: 981px) {
   .top-text{
     padding: 35% 5% 5% 5%;
   }
@@ -171,11 +198,11 @@ a.button:hover{
 
 
 /* -- DESKTOP -- */
-@media only screen and (min-width: 1201px){
+/*@media only screen and (min-width: 1201px){
   .top-text{
     padding: 35% 5% 5% 5%;
   }
   .top-fold{
     height:80vh;
   }
-}
+}*/
