@@ -1,2 +1,2 @@
 # LandingPage_Summer
-Rutgers Continuing Education Summer Programs Landing PAge
+Rutgers Continuing Education Summer Programs Landing Page
